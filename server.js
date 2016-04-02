@@ -69,8 +69,7 @@ var findData = function(db,searchvalue, callback) {
 
 
 
-// databaseInsert(   {name: "happyGul"}
-// 	);
+// databaseInsert( 	);
 databaseQuery({name: "*"});
 
 app.post('/insert', function(req,res){
